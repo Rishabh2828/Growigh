@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="105dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/homeactivityimg"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Ayush"
+            android:textSize="32dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/noto_sans"
+            android:src="@drawable/feedbtn"
+            android:layout_marginTop="25dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/feedbtn"
+            android:layout_width="300dp"
+            android:layout_height="74dp"
+            android:src="@drawable/feedbtn"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"/>
+
+
+        <ImageView
+            android:id="@+id/uploadImgBtn"
+            android:layout_width="300dp"
+            android:layout_height="74dp"
+            android:src="@drawable/uploadbtn"
+            android:layout_marginTop="25dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="95dp"
+        android:layout_height="4dp"
+        android:background="@drawable/straightline"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:layout_gravity="center" />
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
